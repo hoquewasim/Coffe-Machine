@@ -1,8 +1,9 @@
+
 import java.util.Scanner;
 
 public class Main {
-
     public static void main(String[] args) {
+
         Scanner sc = new Scanner(System.in);
 
 //        System.out.println("Hello World!");
@@ -67,11 +68,7 @@ public class Main {
             if(need>smallest)
             {
                 System.out.println("No, I can make only " + smallest +" cup(s) of coffee");
-            } else if(need<smallest)
-            {
-
             }
-
 
         } else if(water == 0 || milk == 0 || coffee == 0)
         {
@@ -83,6 +80,9 @@ public class Main {
                 System.out.println("Yes, I can make that amount of coffee ");
             }
         }
+
+
+
 
 
 
